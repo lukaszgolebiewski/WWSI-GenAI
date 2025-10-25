@@ -10,12 +10,14 @@ Create a new conda environment with Python 3.11:
 
 ```bash
 conda create -n wwsi-genai python=3.11 -y
+conda create --prefix "C:\Users\lgolebiewski\PythonEnvs\wwsi-genai" python=3.11 -y
 ```
 
 ### 2. Activate Environment
 
 ```bash
 conda activate wwsi-genai
+conda activate --prefix "C:\Users\lgolebiewski\PythonEnvs\wwsi-genai"
 ```
 
 ### 3. Install Dependencies
